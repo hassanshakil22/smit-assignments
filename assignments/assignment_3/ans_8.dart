@@ -8,9 +8,7 @@ void main() {
     {'name': 'Sarah', 'eligible': true},
     {'name': 'Tom', 'eligible': false},
   ];
-  // for (var i = 0; i < usersEligibility.length; i++) {
 
   usersEligibility.removeWhere((element) => element['eligible'] == false);
   print(usersEligibility);
-  // }
 }
