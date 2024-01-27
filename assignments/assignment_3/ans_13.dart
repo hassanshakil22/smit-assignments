@@ -45,4 +45,6 @@ void main() {
     }
   }
   print(seenOnce);
+  // i got this solutiuon from chat gpt after working on this questionm for 2 hours using loops and everything and also went online to get some help but in the end
+  // thnis was the only answer i could get to get only the unique elements , althugh i can describe this solution
 }
