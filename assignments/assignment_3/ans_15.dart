@@ -2,7 +2,7 @@
 // numbers from a list of integers. The program should take in the original list as a
 // parameter and print a new list containing only the positive numbers.
 void main() {
-  List<int> inputList = [2, 4, 5, 7, -8, 9, -7, 6, 5, 4, 3, -3, -2];
+  List<int> inputList = [2, 4, 5, 7, -8, 9, -7, 6, 5, 4, 3, -3, -2]; //argumentt
   List<int> integers = inputList;
 
   var newList = integers.where((element) => element > 0);
