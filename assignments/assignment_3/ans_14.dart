@@ -4,6 +4,6 @@ void main() {
 
   List<int> newlist = [];
   newlist.addAll(integers);
-  print(integers);
+  print(integers); //prints the original list
   print(newlist..sort());
 }
