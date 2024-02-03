@@ -13,5 +13,4 @@ void main() {
   } else {
     print("$number is a prime number");
   }
-  print(divisiblity);
 }
