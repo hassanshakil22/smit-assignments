@@ -5,7 +5,8 @@ void main() {
   int number = 6;
   int result = 1;
   for (var n = 0; n < number; n++) {
-    result *= number - n;
+    result *= number -
+        n; // *= multpilies the leftr side result to right sidce and assigns the value to left side
   }
-  print(result);
+  print("factorial of $number is $result");
 }
