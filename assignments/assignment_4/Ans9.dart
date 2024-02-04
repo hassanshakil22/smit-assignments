@@ -4,7 +4,7 @@ import 'dart:math';
 
 void main() {
   int n = 6;
-  for (var i = 0; i < n; i++) {
+  for (var i = 1; i < n; i++) {
     print("Number is : $i and cube of  $i is : ${pow(i, 3)}");
   }
 }
