@@ -8,7 +8,7 @@ void main() {
   for (var i = 0; i <= n; i++) {
     for (var j = 0; j <= i; j++) {
       stdout.write(number);
-      number++;
+      number++; // incrementing every time after the number is printed
     }
     print("");
   }
