@@ -16,5 +16,5 @@ void main() {
       vowelCount++;
     }
   }
-  print("the word $input has $vowelCount  vowels");
+  print("the word $input has $vowelCount vowels");
 }
