@@ -7,7 +7,7 @@ void main() {
   num sum = 0;
   for (var number in numbers) {
     if (number % 2 != 0) {
-      sum += pow(number, 2);
+      sum += pow(number, 2); //adds square of the iterated odd number to sum
     }
   }
   print(sum);
