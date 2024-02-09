@@ -1,8 +1,6 @@
 // question 23 : Implement a code that finds the average of all the negative numbers in
 // a list using a for loop and if-else condition.
 
-import 'dart:io';
-
 void main() {
   int sumnegnumbers = 0;
   List negnumbers = [];
